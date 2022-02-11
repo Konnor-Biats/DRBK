@@ -21,7 +21,7 @@
     background-color: transparent;
     color: #fff;
     padding: 8px 20px;
-    border: 1 px solid var(--primary);
+    border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
 }
 
@@ -97,4 +97,14 @@
 
 .green:hover {
     background-color: #242424;
+}
+
+.btn-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 8px 16px;
+    height: 100%;
+    width: 100%;
 }

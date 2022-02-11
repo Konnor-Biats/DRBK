@@ -24,11 +24,11 @@ export const Button = ({
     const checkButtonStyle = STYLES.includes(buttonStyle) ? 
     buttonStyle : STYLES[0]
 
-    const checkButtonSize = STYLES.includes(buttonSize) ? 
+    const checkButtonSize = SIZES.includes(buttonSize) ? 
     buttonSize : SIZES[0]
 
-    const checkButtonColor = STYLES.includes(buttonColor) ? 
-    buttonColor : COLOR[0]
+    const checkButtonColor = COLOR.includes(buttonColor) ? 
+    buttonColor : null;
 
     {/* Returning the button matching class */}
     return(
