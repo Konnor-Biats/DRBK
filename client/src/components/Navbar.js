@@ -1,27 +1,47 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
-import { MdFingerprint } from 'react-icons/md';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { Button } from './Button';
+import './Navbar.css';
+
 
 
 function Navbar() {
   {/* Initial Value Showing Hamburger Menu Bars */}
   const [click, setClick] = useState(false)
 
+  {/* Initial state of button being not clicked */}
+  const [button, setButton] = useState(true)
+
   {/* Once clicked, set to clicked and displat the X */}
   const handleClick = () => setClick(!click)
+
+  {/* Close the mobile menu */}
+  const closeMobileMenu = () => setClick(false)
+
+  {/* Showing mobile menu depending on screen size */}
+  const showButton = () => {
+    if(window.innerWidth <= 960){
+      setButton(false)
+    }else{
+      setButton(true)
+    }
+  }
+
+  {/* Calling mobile menu function */}
+  window.addEventListener('resize', showButton);
+
 
   return (
     <>
         <div className="navbar">
             <div className="navbar-container container">
                 <Link to='/' className="navbar-logo">
-                  {/* Fingerprint icon */}
-                    <MdFingerprint className='navbar-icon' />
+                  {/* Nav Left Side Title */}
                     DRBK
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
-                  {/* Fingerprint icon */}
+                  {/* Mobile Menu icon */}
                     {click ? <FaTimes /> : <FaBars />}
                 </div>
                 
