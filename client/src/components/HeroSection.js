@@ -11,13 +11,13 @@ function HeroSection({
   {/* If there is a light background then toggle the dark setting? */}
         <div className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}>
           
-          <div className="container">
+          <div className='container'>
             {/* Images will move on screen depending on screen size at img start  */}
-            <div className="home__hero-row"
+            <div className="row home__hero-row"
               style={{display: 'flex', flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'}}>
               
               {/* 1st Column  */}
-              <div className="col">
+              <div className='col'>
                 {/* Text wrapping  */}
                 <div className="home__hero-text-wrapper">
                   <div className="top-line">
