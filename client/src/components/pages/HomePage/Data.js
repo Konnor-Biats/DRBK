@@ -3,7 +3,7 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Exclusive Access',
-    headline: 'Unlimited Transactions with zero fees',
+    headline: 'Done Right Bully Kennel',
     description: 'Get access to our exclusive diamond dildo',
     buttonLabel: 'Get Started',
     imgStart: '',
