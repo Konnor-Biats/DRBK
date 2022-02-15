@@ -3,11 +3,11 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Exclusive Access',
-    headline: 'Done Right Bully Kennel',
+    headline: 'Akrons Finest Bullys',
     description: 'Get access to our exclusive diamond dildo',
     buttonLabel: 'Get Started',
     imgStart: '',
-    img: 'images/Purple_Logo.png',
+    img: 'images/PL_BG1.png',
     alt: 'DRBK Logo'
 };
 
@@ -15,11 +15,11 @@ export const homeObjTwo = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Exclusive Access',
-    headline: 'Unlimited Transactions with zero fees',
-    description: 'Get access to our exclusive diamond dildo',
-    buttonLabel: 'Get Started',
+    topLine: 'Done Right Bully Kennel ',
+    headline: 'Productions',
+    description: 'Availability is subject to change',
+    buttonLabel: 'View the Family',
     imgStart: '',
-    img: 'images/Purple_Logo.png',
+    img: 'images/GoldrushXDolly.jpg',
     alt: 'DRBK Logo'
 };
