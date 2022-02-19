@@ -1,11 +1,11 @@
 export const homeObjOne = {
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Exclusive Access',
-    headline: 'Akrons Finest Bullys',
-    description: 'Get access to our exclusive diamond dildo',
-    buttonLabel: 'Get Started',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Done Right Bully Kennel',
+    headline: 'Productions',
+    description: 'Done Right Bully Kennel prides themselves in the work that they do breeding some of the finest Bullys in the state',
+    buttonLabel: 'View the DRBK Family',
     imgStart: '',
     img: 'images/PL_BG1.png',
     alt: 'DRBK Logo'
