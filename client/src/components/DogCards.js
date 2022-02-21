@@ -8,11 +8,12 @@ function DogCards() {
     <div>
         <div className='dog__section'>
             <div className='dog__wrapper'>
+                <h1 className='dog__heading'>Find Your Forever Dog</h1>
                 <div className='dog__container'>
                     <Link to='/sign-up' className='dog__container-card'>
                         <div className='dog__container-cardInfo'>
                             <img className='img' src='images/DogCards/D1.jpg'/>
-                            <h3>Productions</h3>
+                            <h3>Available Dogs</h3>
                             
                             
                         </div>    
@@ -20,17 +21,11 @@ function DogCards() {
                     <Link to='/sign-up' className='dog__container-card'>
                         <div className='dog__container-cardInfo'>
                             <img src='images/DogCards/D2.jpg'></img>
-                            <h3>Available</h3>
-                            
-                        </div>    
-                    </Link>
-                    <Link to='/sign-up' className='dog__container-card'>
-                        <div className='dog__container-cardInfo'>
-                            <img src='images/DogCards/D1.jpg'></img>
                             <h3>Upcoming Litters</h3>
                             
                         </div>    
                     </Link>
+                    
                 </div>
             </div>
         </div>

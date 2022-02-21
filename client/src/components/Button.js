@@ -8,7 +8,7 @@ const STYLES = ['btn--primary', 'btn--outline']
 const SIZES = ['btn--medium', 'btn--large', 'btn--mobile', 'btn--wide']
 
 {/* Setting classes to buttons primary color code */}
-const COLOR = ['primary', 'blue', 'red', 'green']
+const COLOR = ['primary','purple','blue', 'red', 'green']
 
 {/* Exporting button; passing in values */}
 export const Button = ({

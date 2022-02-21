@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import { Button } from './Button';
 import './Navbar.css';
 import { IconContext } from 'react-icons/lib'
 
@@ -85,18 +84,7 @@ function Navbar() {
                   </li>
                   
                   {/* Button Component */}
-                  <li className="nav-btn" onClick={closeMobileMenu}>
-                    {button ? (
-                      <Link to='/sign-up' className="btn-link">
-                      <Button buttonStyle='btn--outline'>Sign Up</Button>
-                      </Link>
-                    ): (
-                      <Link to='/sign-up' className="btn-link">
-                        <Button buttonStyle='btn--outline' buttonSize='btn--mobile'>Sign Up</Button>
-                      </Link>
-                    )
-                  }
-                  </li>
+                  
                 </ul>
             </div>
         </div>

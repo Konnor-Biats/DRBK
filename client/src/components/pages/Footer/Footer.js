@@ -5,7 +5,7 @@ import {
   FaFacebook,
   FaInstagram,
   FaYoutube,
-  FaTwitter,
+  FaSnapchat
 } from 'react-icons/fa';
 
 function Footer() {
@@ -15,17 +15,18 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>About Us</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
+            <Link to='/'>About DRBK</Link>
+            <Link to='/'>Services</Link>
+            <Link to='/'>FAQ</Link>
             <Link to='/'>Terms of Service</Link>
+            <Link to='/'>Contact</Link>
+
           </div>
           <div className='footer-link-items'>
             <h2>Productions</h2>
             <Link to='/'>Males</Link>
             <Link to='/'>Females</Link>
-            <Link to='/'>Extra</Link>
+            <Link to='/'>View Bloodlines</Link>
             <Link to='/'>Extra</Link>
           </div>
         </div>
@@ -34,14 +35,14 @@ function Footer() {
             <h2>Available</h2>
             <Link to='/'>Males</Link>
             <Link to='/'>Females</Link>
-            <Link to='/'>Extra</Link>
-            <Link to='/'>Extra</Link>
+            <Link to='/'>Terms of Purchase</Link>
+            <Link to='/'>FAQ?</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Upcoming Litters</h2>
             <Link to='/'>Bloodline</Link>
-            <Link to='/'>Bloodline</Link>
-            <Link to='/'>Extra</Link>
+            <Link to='/'>Terms of Purchase</Link>
+            <Link to='/'>FAQ?</Link>
             <Link to='/'>Extra</Link>
           </div>
           <div className='footer-link-items'>
@@ -90,9 +91,9 @@ function Footer() {
               className='social-icon-link'
               to='/'
               target='_blank'
-              aria-label='Twitter'
+              aria-label='Snapchat'
             >
-              <FaTwitter />
+              <FaSnapchat />
             </Link>
             
           </div>

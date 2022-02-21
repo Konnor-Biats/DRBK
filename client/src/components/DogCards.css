@@ -39,7 +39,11 @@
     margin: 0 auto;
 }
 
-
+.dog__heading {
+    color: #fff;
+    margin-bottom: 24px;
+    text-align: center;
+  }
 
 .dog__container-cardInfo {
     display: flex;

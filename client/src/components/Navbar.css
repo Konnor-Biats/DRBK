@@ -143,11 +143,5 @@
       font-size: 2rem;
     }
   
-    .nav-btn {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      height: 120px;
-    }
+    
   }
