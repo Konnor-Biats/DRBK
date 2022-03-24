@@ -9,7 +9,6 @@ function Home() {
     <>
         <Banner />
         <HeroSection {...homeObjOne} />
-        <HeroSection {...homeObjTwo} />  
         <Cards />
 
     </>

@@ -11,15 +11,3 @@ export const homeObjOne = {
     alt: 'DRBK Logo'
 };
 
-export const homeObjTwo = {
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topLine: 'Done Right Bully Kennel ',
-    headline: 'Productions',
-    description: 'Availability is subject to change',
-    buttonLabel: 'View the Family',
-    imgStart: '',
-    img: 'images/GoldrushXDolly.jpg',
-    alt: 'DRBK Logo'
-};
